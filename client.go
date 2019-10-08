@@ -23,8 +23,8 @@ import (
 var OpenCensusViews = pubsub.OpenCensusViews
 
 const (
-	publisherNamespace  = "github.com/devopsfaith/krakend-pubsub/publisher"
-	subscriberNamespace = "github.com/devopsfaith/krakend-pubsub/subscriber"
+	publisherNamespace  = "github.com/javiermarques/krakend-pubsub/publisher"
+	subscriberNamespace = "github.com/javiermarques/krakend-pubsub/subscriber"
 )
 
 func NewBackendFactory(ctx context.Context, logger logging.Logger, bf proxy.BackendFactory) *BackendFactory {
